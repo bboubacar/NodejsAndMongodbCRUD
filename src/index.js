@@ -1,6 +1,5 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const cors = require("cors");
 // const multer = require("multer");
 const dotenv = require("dotenv");
 const Book = require("./models/bookModels");
@@ -19,7 +18,6 @@ if(process.env.NODE_ENV !== "production"){
 }
 
 //Middlewares
-app.use(cors()); // TO handle from different environnement
 app.use(express.json()) // To handle json data
 app.use("/books", booksRoute); // This will redirect to booksRoute routers
 
