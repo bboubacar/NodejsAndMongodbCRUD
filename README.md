@@ -7,13 +7,13 @@
 
 ## Install all packages
 
-> Install all packages by running this code <br/>
-> `git install`
+> Install all packages by running this code <br/> > `git install`
 
 ## Configure Database parametters
 
 > Then create in to your repository .env file and add inside of it <br/>
-> `PORT= Your port number` > `CONNECTION_STRING= your mongodb connexion string`
+> `PORT= Your port number` <br />
+> `CONNECTION_STRING= your mongodb connexion string`
 
 ## Start the app
 
