@@ -1,6 +1,5 @@
 const express = require("express");
 const mongoose = require("mongoose");
-// const multer = require("multer");
 const dotenv = require("dotenv");
 const Book = require("./models/bookModels");
 const booksRoute = require("./routes/booksRoute.js");
